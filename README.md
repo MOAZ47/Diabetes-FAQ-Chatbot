@@ -16,7 +16,7 @@ The purpose of this project is to provide a user-friendly interface for retrievi
 - **Engage**: Foster engagement by offering a conversational interface that mimics human-like responses, enhancing user experience.
 
 ## LLM Model Used
-This project utilizes the GPT-Neo 125M model from EleutherAI. GPT-Neo is an open-source transformer-based language model, developed as a lightweight alternative to large-scale models like GPT-3. The 125M variant is smaller in size but still capable of generating coherent text and answering questions based on provided contexts.
+This project utilizes the [GPT-Neo 125M model from EleutherAI](https://huggingface.co/EleutherAI/gpt-neo-125m). GPT-Neo is an open-source transformer-based language model, developed as a lightweight alternative to large-scale models like GPT-3. The 125M variant is smaller in size but still capable of generating coherent text and answering questions based on provided contexts.
 
 ## Features
 
