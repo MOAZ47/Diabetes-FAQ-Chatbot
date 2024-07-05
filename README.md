@@ -52,8 +52,8 @@ python chatbot_logic.py
 
 ## Project Structure
 
-- **llm_chatbot.py**: Main application script containing the Streamlit app code.
-- **chatbot.py**: Python script containing the chatbot logic.
+- **app_streamlit.py**: Main application script containing the Streamlit app code.
+- **chatbot_logic.py**: Python script containing the chatbot logic.
 - **requirements.txt**: List of Python dependencies for the project.
 
 ## Dependencies
