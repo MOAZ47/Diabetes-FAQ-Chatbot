@@ -63,6 +63,7 @@ python chatbot_logic.py
 
 ## Dependencies
 
+- Python == 3.11.0
 - Streamlit
 - Transformers (Hugging Face)
 - LangChain
