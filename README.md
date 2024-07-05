@@ -1,6 +1,6 @@
 # Diabetes-FAQ-Chatbot
 
-This project implements a chatbot using a Large Language Model (LLM) to answer frequently asked questions (FAQs) about diabetes. It leverages Streamlit for the user interface and integrates with Hugging Face transformers for natural language processing.
+This project implements a chatbot using a Large Language Model (LLM); particularly GPT (Generative Pre-trained Transformer) by EleutherAI, to answer frequently asked questions (FAQs) about diabetes. It leverages Streamlit for the user interface and integrates with Hugging Face transformers for natural language processing.
 
 ## Overview
 
@@ -14,6 +14,9 @@ The purpose of this project is to provide a user-friendly interface for retrievi
 - **Support**: Assist users in finding answers to their questions promptly and efficiently.
 
 - **Engage**: Foster engagement by offering a conversational interface that mimics human-like responses, enhancing user experience.
+
+## LLM Model Used
+This project utilizes the GPT-Neo 125M model from EleutherAI. GPT-Neo is an open-source transformer-based language model, developed as a lightweight alternative to large-scale models like GPT-3. The 125M variant is smaller in size but still capable of generating coherent text and answering questions based on provided contexts.
 
 ## Features
 
