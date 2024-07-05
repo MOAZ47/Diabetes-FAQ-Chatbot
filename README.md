@@ -71,3 +71,8 @@ All the data has been extracted from the [Mayoclinic website]('https://www.mayoc
 
 Contributions are welcome! Please fork the repository and create a pull request with your suggested changes.
 
+## References
+- [LangChain Add Chat History](https://python.langchain.com/v0.1/docs/use_cases/question_answering/chat_history/#chain-without-chat-history)
+- [LangChain Build a PDF ingestion and Question/Answering system](https://python.langchain.com/v0.2/docs/tutorials/pdf_qa/)
+- [Leon Van Zyl Langchain Tutorial](https://www.youtube.com/watch?v=KwA5DnRo_co)
+
