@@ -68,7 +68,7 @@ python chatbot_logic.py
 - LangChain
 
 ## Data Source
-All the data has been extracted from the [Mayoclinic website]('https://www.mayoclinic.org')
+All the data has been extracted from the [Mayoclinic website](https://www.mayoclinic.org)
 
 ## Contributing
 
