@@ -54,7 +54,7 @@ python chatbot_logic.py
 
 - **app_streamlit.py**: Main application script containing the Streamlit app code.
 - **chatbot_logic.py**: Python script containing the chatbot logic.
-- **data_extraction.ipynb**: Jupyter Notebook containing code to scrap data.
+- **data_extraction.py**: Python script containing code to scrap data.
 - **diabetes_faq.pdf**: PDF file containing extracted information about Diabetes.
 - **requirements.txt**: List of Python dependencies for the project.
 
