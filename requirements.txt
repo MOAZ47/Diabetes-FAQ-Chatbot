@@ -22,3 +22,4 @@ trulens-providers-openai
 guardrails-ai
 wandb
 weave
+pysqlite3-binary
