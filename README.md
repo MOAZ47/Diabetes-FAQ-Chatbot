@@ -30,6 +30,7 @@ Click below link to view demo
 ---
 ## 📁 Project Structure
 
+```
 diabetes_expert_system/
 ├── Jenkinsfile                       # ✅ Jenkins pipeline script
 ├── requirements.txt                  # ✅ All dependencies
@@ -52,7 +53,7 @@ diabetes_expert_system/
 │   └── eval_results.json
 ├── vectorstore/                      # 💾 FAISS vector DB (Depreciated, using Pinecone)
 └── .env                              # 🔐 API keys (optional)
-
+```
 
 
 ---
