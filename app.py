@@ -3,6 +3,11 @@ from main import get_diabetes_info
 from utils.logger import init_logging
 import os
 
+# Adding below 3 imports to fix error while deploying on streamlit cloud
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3
+
 # Init logs directory
 logger = init_logging("streamlit.log")
 
