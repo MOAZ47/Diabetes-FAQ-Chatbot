@@ -23,4 +23,4 @@ guardrails-ai
 wandb
 weave
 pysqlite3-binary
-sqlite3 >= 3.35.0
+# sqlite3 >= 3.35.0
