@@ -24,23 +24,23 @@ pipeline {
             }
         }
 
-        stage('Build Docker Image') {
-            steps {
-                script {
-                    def imageExists = sh (
-                      script: "docker images -q moaz47/diabetes-faq-app:1.1",
-                      returnStdout: true
-                    ).trim()
+        // stage('Build Docker Image') {
+        //     steps {
+        //         script {
+        //             def imageExists = sh (
+        //               script: "docker images -q moaz47/diabetes-faq-app:1.1",
+        //               returnStdout: true
+        //             ).trim()
 
-                    if (imageExists) {
-                      echo "Docker image already exists: Skipping build."
-                    } else {
-                      echo "Image not found: Building Docker image..."
-                      // sh "docker build -t moaz47/diabetes-faq-app:latest ."
-                    }
-                }
-            }
-        }
+        //             if (imageExists) {
+        //               echo "Docker image already exists: Skipping build."
+        //             } else {
+        //               echo "Image not found: Building Docker image..."
+        //               // sh "docker build -t moaz47/diabetes-faq-app:latest ."
+        //             }
+        //         }
+        //     }
+        // }
 
         stage('Test') {
             parallel {
