@@ -1,0 +1,275 @@
+2025-07-29 00:18:43,685 - INFO - Logging system initialized. Log file: C:\Users\moazh\Desktop\diabetes\logs\web_search_tool.log
+2025-07-29 00:18:43,695 - INFO - Logging system initialized. Log file: C:\Users\moazh\Desktop\diabetes\logs\health_coach.log
+2025-07-29 00:18:43,696 - INFO - Creating medical researcher agent ... 
+2025-07-29 00:18:43,697 - INFO - Starting Health Coach agent setup
+2025-07-29 00:18:43,698 - INFO - Initializing Crew ai LLM model
+2025-07-29 00:18:43,701 - INFO - Crew ai Health Coach LLM model initialized in 0.00s
+2025-07-29 00:18:43,701 - INFO - Initializing WebSearchTool
+2025-07-29 00:18:43,703 - INFO - WebSearchTool initialized in 0.00s
+2025-07-29 00:18:43,704 - INFO - WebSearchTool initialized in 0.00s
+2025-07-29 00:18:43,704 - INFO - Creating Health Coach agent
+2025-07-29 00:18:43,710 - INFO - Health Coach agent created in 0.01s
+2025-07-29 00:18:43,711 - INFO - Total setup time: 0.01s
+2025-07-29 00:18:43,712 - INFO - Health Coach agent successfully initialized
+2025-07-29 00:18:43,713 - INFO - Script execution completed at 2025-07-29T00:18:43.713661
+2025-07-29 00:18:43,714 - INFO - Testing with query: What food items to avoid if suffering from Diabetes?
+2025-07-29 00:18:43,789 - INFO - 
+LiteLLM completion() model= mistral-medium-latest; provider = mistral
+2025-07-29 00:18:46,161 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 00:18:46,188 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-29 00:18:46,190 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:18:46,191 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:18:46,193 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:18:46,202 - INFO - [Query #1] Processing: food items to avoid for diabetes in Indian diet...
+2025-07-29 00:18:50,657 - ERROR - [Query #1] Failed after 4.45s: unhashable type: 'list'
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+2025-07-29 00:18:50,659 - INFO - [Query #2] Processing: food items to avoid for diabetes in Indian diet...
+2025-07-29 00:18:54,746 - ERROR - [Query #2] Failed after 4.09s: unhashable type: 'list'
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\tool_usage.py", line 238, in _use
+    result = tool.invoke(input=arguments)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\structured_tool.py", line 249, in invoke
+    result = self.func(**parsed_args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+2025-07-29 00:18:55,351 - INFO - [Query #3] Processing: food items to avoid for diabetes in Indian diet...
+2025-07-29 00:18:59,379 - ERROR - [Query #3] Failed after 4.03s: unhashable type: 'list'
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\tool_usage.py", line 238, in _use
+    result = tool.invoke(input=arguments)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\structured_tool.py", line 249, in invoke
+    result = self.func(**parsed_args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\tool_usage.py", line 243, in _use
+    result = tool.invoke(input=arguments)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\structured_tool.py", line 249, in invoke
+    result = self.func(**parsed_args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+2025-07-29 00:18:59,390 - INFO - [Query #4] Processing: food items to avoid for diabetes in Indian diet...
+2025-07-29 00:19:03,794 - ERROR - [Query #4] Failed after 4.40s: unhashable type: 'list'
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\tool_usage.py", line 238, in _use
+    result = tool.invoke(input=arguments)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\structured_tool.py", line 249, in invoke
+    result = self.func(**parsed_args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\tool_usage.py", line 243, in _use
+    result = tool.invoke(input=arguments)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\structured_tool.py", line 249, in invoke
+    result = self.func(**parsed_args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\tool_usage.py", line 238, in _use
+    result = tool.invoke(input=arguments)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\structured_tool.py", line 249, in invoke
+    result = self.func(**parsed_args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+2025-07-29 00:19:03,808 - INFO - [Query #5] Processing: food items to avoid for diabetes in Indian diet...
+2025-07-29 00:19:07,935 - ERROR - [Query #5] Failed after 4.13s: unhashable type: 'list'
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\tool_usage.py", line 238, in _use
+    result = tool.invoke(input=arguments)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\structured_tool.py", line 249, in invoke
+    result = self.func(**parsed_args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\tool_usage.py", line 243, in _use
+    result = tool.invoke(input=arguments)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\structured_tool.py", line 249, in invoke
+    result = self.func(**parsed_args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\tool_usage.py", line 238, in _use
+    result = tool.invoke(input=arguments)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\structured_tool.py", line 249, in invoke
+    result = self.func(**parsed_args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\tool_usage.py", line 243, in _use
+    result = tool.invoke(input=arguments)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\diabetes\Lib\site-packages\crewai\tools\structured_tool.py", line 249, in invoke
+    result = self.func(**parsed_args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\moazh\Desktop\diabetes\tools\web_search_tool.py", line 74, in _run
+    sources = result.get([result['results'][_]['content'] for _ in range(len(result['results']))], [])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'list'
+2025-07-29 00:19:07,949 - INFO - [Query #6] Processing: food items to avoid for diabetes in Indian diet...
+2025-07-29 00:19:11,500 - INFO - Execution completed
+2025-07-29 00:36:38,318 - INFO - Logging system initialized. Log file: C:\Users\moazh\Desktop\diabetes\logs\web_search_tool.log
+2025-07-29 00:36:38,332 - INFO - Logging system initialized. Log file: C:\Users\moazh\Desktop\diabetes\logs\health_coach.log
+2025-07-29 00:36:38,334 - INFO - Creating medical researcher agent ... 
+2025-07-29 00:36:38,335 - INFO - Starting Health Coach agent setup
+2025-07-29 00:36:38,336 - INFO - Initializing Crew ai LLM model
+2025-07-29 00:36:38,339 - INFO - Crew ai Health Coach LLM model initialized in 0.00s
+2025-07-29 00:36:38,341 - INFO - Initializing WebSearchTool
+2025-07-29 00:36:38,344 - INFO - WebSearchTool initialized in 0.00s
+2025-07-29 00:36:38,345 - INFO - WebSearchTool initialized in 0.00s
+2025-07-29 00:36:38,346 - INFO - Creating Health Coach agent
+2025-07-29 00:36:38,352 - INFO - Health Coach agent created in 0.01s
+2025-07-29 00:36:38,353 - INFO - Total setup time: 0.02s
+2025-07-29 00:36:38,353 - INFO - Health Coach agent successfully initialized
+2025-07-29 00:36:38,354 - INFO - Script execution completed at 2025-07-29T00:36:38.354575
+2025-07-29 00:36:38,355 - INFO - Testing with query: What food items to avoid if suffering from Diabetes?
+2025-07-29 00:36:38,591 - INFO - 
+LiteLLM completion() model= mistral-medium-latest; provider = mistral
+2025-07-29 00:36:41,139 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 00:36:41,169 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-29 00:36:41,172 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:36:41,173 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:36:41,180 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:36:41,187 - INFO - [Query #1] Processing: foods to avoid for diabetics...
+2025-07-29 00:36:48,594 - INFO - [Query #1] Completed in 7.41s (Search: 5.40s). Answer length: 213 chars. Sources found: 3
+2025-07-29 00:36:48,604 - INFO - 
+LiteLLM completion() model= mistral-medium-latest; provider = mistral
+2025-07-29 00:36:49,552 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 00:36:49,556 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-29 00:36:49,558 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:36:49,559 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:36:49,564 - INFO - [Query #2] Processing: Indian foods to avoid for diabetics and practical cooking tips...
+2025-07-29 00:36:49,567 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:36:54,224 - INFO - [Query #2] Completed in 4.66s (Search: 2.65s). Answer length: 152 chars. Sources found: 3
+2025-07-29 00:36:54,238 - INFO - 
+LiteLLM completion() model= mistral-medium-latest; provider = mistral
+2025-07-29 00:37:02,601 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-29 00:37:02,606 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-29 00:37:02,607 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:37:02,608 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:37:02,616 - INFO - selected model name for cost calculation: mistral/mistral-medium-latest
+2025-07-29 00:37:02,630 - INFO - 
+--- Result ---
+2025-07-29 00:37:02,631 - INFO - If you are suffering from diabetes, it's crucial to manage your diet carefully to control blood sugar levels. Here are some practical recommendations tailored for an Indian diet:
+
+Food Items to Avoid:
+
+1. **Refined Carbohydrates**: Avoid white bread, white rice, and all-purpose flour (maida). These foods have a high glycemic index and can cause spikes in blood sugar levels.
+
+2. **Sugary Foods and Beverages**: Stay away from sweets like gulab jamun, rasgulla, and jalebi. Also, avoid sugary drinks such as packaged fruit juices and sodas.
+
+3. **Deep-Fried Foods**: Foods like samosas, pakoras, and puris are high in unhealthy fats and calories, which can lead to weight gain and worsen diabetes.
+
+4. **High-Fat Dairy Products**: Full-fat milk, ghee, and butter should be consumed in moderation as they are high in saturated fats.
+
+5. **Processed Snacks**: Avoid processed snacks like chips, biscuits, and namkeens, which are often high in salt, sugar, and unhealthy fats.
+
+Cooking Tips and Alternatives:
+
+1. **Whole Grains**: Opt for whole grains like brown rice, whole wheat flour (atta), and millets (bajra, jowar) instead of refined grains. These have a lower glycemic index and provide more fiber.
+
+2. **Healthy Cooking Methods**: Use cooking methods like steaming, grilling, baking, or sautéing with minimal oil instead of deep-frying. This helps reduce the intake of unhealthy fats.
+
+3. **Lean Proteins**: Include lean proteins like skinless chicken, fish, tofu, and legumes (dal, chana) in your diet. These are good for maintaining muscle mass and managing blood sugar levels.
+
+4. **Vegetables and Fruits**: Incorporate a variety of vegetables and fruits into your meals. Opt for low-glycemic index fruits like apples, oranges, and berries. Vegetables like spinach, bitter gourd (karela), and fenugreek (methi) are particularly beneficial for diabetics.
+
+5. **Portion Control**: Be mindful of portion sizes to avoid overeating. Use smaller plates and bowls to help control portions.
+
+6. **Meal Timing**: Maintain regular meal times and avoid skipping meals. Eating at consistent times helps regulate blood sugar levels. Include small, healthy snacks between meals if needed.
+
+7. **Hydration**: Drink plenty of water throughout the day. Avoid sugary drinks and opt for herbal teas, buttermilk (chaas), or infused water with lemon or mint.
+
+8. **Spices and Herbs**: Use spices like turmeric, cinnamon, and fenugreek, which have been shown to help manage blood sugar levels. Incorporate herbs like coriander and mint for added flavor and health benefits.
+
+By following these dietary guidelines and cooking tips, you can better manage your diabetes and maintain a healthy lifestyle. Always consult with a healthcare provider or a certified diabetes educator for personalized advice.
+2025-07-29 00:37:02,636 - INFO - Execution completed

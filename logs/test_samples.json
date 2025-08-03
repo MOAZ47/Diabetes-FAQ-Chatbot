@@ -1,0 +1,14 @@
+[
+  {
+    "query": "What are symptoms of type 2 diabetes?",
+    "answer": "The symptoms include thirst, urination, blurry vision.",
+    "reference": "Increased thirst, frequent urination, fatigue, blurred vision.",
+    "context_source": "CDC"
+  },
+  {
+    "query": "Can diabetics eat mango?",
+    "answer": "Yes, they can eat it every day.",
+    "reference": "They can eat mango occasionally in small portions.",
+    "context_source": "ADA"
+  }
+]

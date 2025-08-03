@@ -1,0 +1,461 @@
+2025-07-24 02:11:06,065 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:11:07,479 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:11:07,501 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:11:07,502 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:11:07,503 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:11:07,504 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:11:07,504 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:11:07,532 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:11:07,534 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:12:10,073 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 503 Service Unavailable"
+2025-07-24 02:12:40,376 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:12:40,704 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:12:41,016 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:12:41,324 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:12:42,575 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:12:42,796 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:12:43,361 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:12:43,579 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:12:43,815 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:12:44,016 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:12:44,268 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:12:44,499 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:12:44,584 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:12:45,152 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:12:45,155 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:12:45,156 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:12:45,157 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:12:45,157 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:12:45,158 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:12:45,169 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:12:45,173 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:12:50,819 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:12:51,079 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:12:56,934 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:12:57,321 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:14,305 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:14,623 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:23,329 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:23,845 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:25,789 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:26,016 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:29,902 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:30,108 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:30,153 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:13:30,717 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:13:30,722 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:13:30,723 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:13:30,723 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:13:30,724 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:13:30,725 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:13:30,730 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:13:30,733 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:13:34,100 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:34,313 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:42,671 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:42,928 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:46,387 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:46,628 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:47,876 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:48,120 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:48,538 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:48,903 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:51,041 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:51,548 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:51,575 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:13:52,183 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:13:52,187 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:13:52,188 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:13:52,189 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:13:52,190 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:13:52,190 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:13:52,197 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:13:52,203 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:13:54,657 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:54,890 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:55,405 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:55,643 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:56,229 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:56,438 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:56,805 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:57,012 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:57,446 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:57,683 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:58,048 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:13:58,298 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:13:58,341 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:14:01,014 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:14:01,016 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:14:01,016 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:01,017 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:01,017 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:01,017 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:01,020 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:01,023 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:02,892 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:03,140 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:04,000 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:04,346 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:04,635 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:04,859 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:05,135 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:05,364 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:05,694 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:05,899 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:06,154 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:06,392 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:06,431 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:14:07,517 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:14:07,518 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:14:07,520 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:07,520 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:07,521 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:07,521 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:07,527 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:07,533 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:07,786 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:07,989 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:08,223 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:08,464 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:08,712 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:09,063 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:09,337 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:09,577 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:09,881 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:10,079 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:10,375 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:10,587 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:10,649 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:14:11,184 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:14:11,186 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:14:11,186 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:11,187 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:11,187 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:11,187 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:11,191 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:11,194 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:11,426 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:11,639 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:11,876 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:12,101 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:12,573 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:12,788 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:13,087 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:13,310 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:13,723 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:13,943 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:14,536 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:14,737 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:14,799 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:14:15,428 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:14:15,434 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:14:15,437 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:15,438 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:15,439 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:15,440 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:15,458 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:15,465 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:15,736 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:15,989 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:16,236 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:16,609 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:16,884 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:17,102 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:17,470 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:17,709 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:18,054 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:18,270 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:18,559 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:18,762 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:18,795 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:14:19,332 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:14:19,336 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:14:19,337 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:19,337 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:19,338 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:19,338 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:19,342 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:19,345 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:19,781 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:19,986 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:20,233 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:20,474 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:20,737 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:20,942 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:21,219 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:21,470 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:21,827 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:22,051 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:22,344 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:22,687 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:22,716 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:14:23,426 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:14:23,427 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:14:23,428 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:23,428 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:23,429 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:23,429 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:23,434 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:23,442 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:23,694 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:23,907 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:24,431 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:24,666 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:25,079 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:25,309 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:25,588 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:25,848 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:26,177 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:26,411 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:26,639 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:26,849 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:26,889 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:14:34,095 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:14:34,100 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:14:34,103 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:34,104 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:34,105 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:34,106 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:34,201 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:34,215 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:34,691 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:34,932 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:35,617 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:36,022 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:36,385 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:36,597 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:36,971 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:37,307 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:37,919 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:38,122 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:38,445 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:38,839 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:38,935 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:14:39,542 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:14:39,545 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:14:39,546 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:39,546 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:39,547 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:39,548 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:39,575 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:39,582 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:39,978 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:40,223 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:40,515 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:41,167 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:41,529 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:41,779 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:42,054 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:42,296 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:42,659 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:42,863 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:43,374 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:43,591 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:43,682 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:14:44,512 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:14:44,514 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:14:44,516 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:44,516 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:44,517 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:44,518 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:44,541 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:14:44,545 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:14:44,798 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:45,016 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:45,376 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:45,812 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:46,205 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:14:46,472 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:14:46,655 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-07-24 02:15:17,022 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:17,280 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:17,718 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:17,953 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:18,587 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:18,798 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:18,870 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:15:20,893 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:15:20,895 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:15:20,896 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:20,896 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:20,897 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:20,897 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:20,907 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:20,911 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:21,247 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:21,561 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:21,804 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:22,155 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:22,416 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:22,759 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:23,114 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:23,314 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:23,642 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:23,881 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:24,147 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:24,371 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:24,411 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:15:25,057 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:15:25,058 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:15:25,059 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:25,059 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:25,059 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:25,059 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:25,069 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:25,071 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:25,947 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:26,301 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:26,573 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:26,804 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:27,082 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:27,313 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:27,565 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:27,766 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:28,276 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:28,492 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:28,984 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:29,497 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:29,530 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:15:30,410 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:15:30,411 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:15:30,412 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:30,412 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:30,412 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:30,413 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:30,425 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:30,428 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:30,753 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:30,987 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:31,245 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:31,445 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:31,833 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:32,070 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:32,322 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:32,544 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:32,909 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:33,121 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:33,370 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:33,568 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:33,604 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:15:34,433 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:15:34,434 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:15:34,435 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:34,435 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:34,435 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:34,436 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:34,443 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:34,447 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:34,701 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:34,930 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:35,181 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:35,429 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:35,739 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:35,970 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:36,221 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:36,494 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:37,139 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:37,492 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:37,849 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:38,105 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:38,145 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:15:38,861 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:15:38,862 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:15:38,863 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:38,863 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:38,863 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:38,864 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:38,869 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:38,875 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:39,190 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:39,408 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:39,941 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:40,178 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:40,482 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:40,695 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:40,923 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:41,121 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:41,470 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:41,682 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:42,029 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:42,252 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:42,285 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:15:42,981 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:15:42,983 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:15:42,984 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:42,984 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:42,985 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:42,985 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:42,993 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:15:43,005 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:15:43,252 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:15:43,457 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:15:43,662 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-07-24 02:16:13,928 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:16:14,233 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:16:14,518 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:16:14,739 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:16:15,222 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:16:15,475 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:16:15,958 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:16:16,295 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:16:16,664 - INFO - HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-24 02:16:17,160 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-24 02:16:17,200 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:16:21,526 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:16:21,528 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:16:21,529 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:21,529 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:21,530 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:21,530 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:16:21,541 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:21,548 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:16:21,623 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:16:22,307 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:16:22,308 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:16:22,309 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:22,309 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:22,310 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:22,310 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:16:22,315 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:22,323 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:16:25,580 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:16:26,203 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:16:26,205 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:16:26,206 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:26,206 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:26,207 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:26,208 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:16:26,213 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:26,225 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:16:29,047 - INFO - 
+LiteLLM completion() model= mistral-small-2506; provider = mistral
+2025-07-24 02:16:33,692 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-24 02:16:33,694 - INFO - Wrapper: Completed Call, calling success_handler
+2025-07-24 02:16:33,695 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:33,695 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:33,695 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:33,696 - INFO - selected model name for cost calculation: mistral-small-2506
+2025-07-24 02:16:33,703 - INFO - selected model name for cost calculation: mistral/mistral-small-2506
+2025-07-24 02:16:33,710 - INFO - selected model name for cost calculation: mistral-small-2506

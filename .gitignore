@@ -1,0 +1,6 @@
+diabetes/
+diabetes_faq/
+wandb/
+.env
+exp.ipynb
+k8s/secret.yaml

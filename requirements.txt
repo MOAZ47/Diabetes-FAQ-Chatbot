@@ -1,0 +1,24 @@
+langchain
+langchain-community
+langchain_mistralai
+langchain_pinecone
+sentence-transformers
+crewai
+crewai-tools
+pinecone
+# 'crewai[tools]'
+# 'crewai[embeddings]'
+faiss-cpu
+streamlit
+
+transformers
+tavily-python
+pytest
+python-dotenv
+
+trulens
+trulens-providers-litellm
+trulens-providers-openai
+guardrails-ai
+wandb
+weave

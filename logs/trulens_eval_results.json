@@ -1,0 +1,23 @@
+{
+    "Answer Relevance":{
+        "('diabetes-auto-app', 'v1')":1.0
+    },
+    "Coherence":{
+        "('diabetes-auto-app', 'v1')":1.0
+    },
+    "Context Relevance":{
+        "('diabetes-auto-app', 'v1')":0.6666666667
+    },
+    "Groundedness - LLM Judge":{
+        "('diabetes-auto-app', 'v1')":0.9850713012
+    },
+    "Hate Speech Detection":{
+        "('diabetes-auto-app', 'v1')":1.0
+    },
+    "latency":{
+        "('diabetes-auto-app', 'v1')":152.96483
+    },
+    "total_cost":{
+        "('diabetes-auto-app', 'v1')":0.0030644
+    }
+}

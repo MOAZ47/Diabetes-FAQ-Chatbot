@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: diabetes-faq-deployment
+  labels:
+    app: diabetes-faq
+spec:
+  replicas: 1 
+  selector:
+    matchLabels:
+      app: diabetes-faq
+  template:
+    metadata:
+      labels:
+        app: diabetes-faq
+    spec:
+      containers:
+      - name: diabetes-faq-container
+        image: moaz47/diabetes-faq-app:1.0 
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8501
+        command: ['streamlit', 'run', 'app.py']
+        envFrom:
+        - configMapRef:
+            name: diabetes-config
+        - secretRef:
+            name: diabetes-secrets

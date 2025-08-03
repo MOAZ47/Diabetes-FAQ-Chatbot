@@ -1,0 +1,15 @@
+tests:
+  - name: diabetes symptoms
+    prompt: What are symptoms of type 2 diabetes?
+    provider: mistral
+    assertions:
+      - type: contains
+        value: "frequent urination"
+      - type: contains
+        value: "fatigue"
+  - name: diabetic food
+    prompt: Can I eat mangoes if I have diabetes?
+    provider: mistral
+    assertions:
+      - type: contains
+        value: "in moderation"

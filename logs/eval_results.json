@@ -1,0 +1,10 @@
+[
+  {
+    "query": "What are symptoms of type 2 diabetes?",
+    "evaluation": "```json\n{\n  \"truthfulness\": \"Good\",\n  \"hallucination\": \"None\",\n  \"grounding\": \"Strong\",\n  \"clarity\": \"Clear\",\n  \"comment\": \"The answer is medically accurate and aligns with the CDC's reference. However, it could be improved by including all key symptoms (e.g., fatigue) for completeness.\"\n}\n```"
+  },
+  {
+    "query": "Can diabetics eat mango?",
+    "evaluation": "```json\n{\n  \"truthfulness\": \"Poor\",\n  \"hallucination\": \"Minor\",\n  \"grounding\": \"Weak\",\n  \"clarity\": \"Clear\",\n  \"comment\": \"The answer is medically incorrect as it suggests daily consumption without restriction, which contradicts the ADA's recommendation of occasional, small portions. The assistant should align with the reference and provide nuanced advice.\"\n}\n```"
+  }
+]
