@@ -28,7 +28,7 @@ pipeline {
             steps {
                 script {
                     def imageExists = sh (
-                      script: "docker images -q moaz47/diabetes-faq-app:latest",
+                      script: "docker images -q moaz47/diabetes-faq-app:1.1",
                       returnStdout: true
                     ).trim()
 
