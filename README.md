@@ -5,7 +5,7 @@ A multi-agent Agentic RAG AI system that answers diabetes-related questions usin
 > 🎯 Designed to showcase advanced agent architectures, custom tools, vector-based retrieval, and LLM-based evaluation — suitable for production use or as a portfolio demo.
 
 <br>
-Click below link to view demo
+<!-- Click below link to view demo -->
 
 ---
 
@@ -26,7 +26,7 @@ Click below link to view demo
 
 ## 🏗️ Architecture Overview
 
-
+![alt text](image.png)
 ---
 ## 📁 Project Structure
 
