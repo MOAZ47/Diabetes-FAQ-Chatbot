@@ -5,7 +5,7 @@ metadata:
   labels:
     app: diabetes-faq
 spec:
-  replicas: 1 
+  replicas: 2
   selector:
     matchLabels:
       app: diabetes-faq
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: diabetes-faq-container
-        image: moaz47/diabetes-faq-app:1.0 
+        image: moaz47/diabetes-faq-app:1.1
         imagePullPolicy: Always
         ports:
         - containerPort: 8501
